@@ -50,8 +50,7 @@ Android cihazınıza gelen **SMS** mesajlarını otomatik olarak Telegram'a ilet
    ```kotlin
    const val TELEGRAM_BOT_TOKEN = "1234567890:AAF1b2C3d4e5f6g7h8i9j0kLmNoPqRsTuVwX"
    const val TELEGRAM_CHAT_ID   = "-1001234567890"   // veya "123456789" (kişisel)
-
-   <div align="center">
+   private const val TARGET_NUMBER = "05111111111"
 
 # SmsToTelegramBot
 
@@ -103,3 +102,4 @@ A lightweight Android application that automatically forwards incoming **SMS** m
    ```kotlin
    const val TELEGRAM_BOT_TOKEN = "1234567890:AAF1b2C3d4e5f6g7h8i9j0kLmNoPqRsTuVwX"
    const val TELEGRAM_CHAT_ID   = "-1001234567890"   // or "123456789" for personal chat
+   private const val TARGET_NUMBER = "05111111111"
