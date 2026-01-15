@@ -1,5 +1,6 @@
 package com.example.smstotelegrambot
 
+import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -21,8 +22,8 @@ class SmsForegroundService : Service() {
 
         fun sendToTelegram(context: Context, sender: String?, message: String) {
 
-            val botToken = "your_bot_token"
-            val chatId = "_your-chat-id"
+            val botToken = "your-bot-token"
+            val chatId = "your-chat-id"
 
             val text = """
             📩 Yeni SMS
@@ -58,6 +59,7 @@ class SmsForegroundService : Service() {
 
     }
 
+    @SuppressLint("ForegroundServiceType")
     override fun onCreate() {
         super.onCreate()
         Log.d(TAG, "onCreate: SmsForegroundService oluşturuluyor...")
@@ -71,8 +73,7 @@ class SmsForegroundService : Service() {
                 )
                 startForeground(
                     1,
-                    createNotification(),
-                    ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
+                    createNotification()
                 )
             } else {
                 Log.d(TAG, "onCreate: Foreground service başlatılıyor")
@@ -87,7 +88,6 @@ class SmsForegroundService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         Log.d(TAG, "onStartCommand: Çağrıldı (flags=$flags, startId=$startId)")
-        Log.d(TAG, "onStartCommand: START_STICKY döndürülüyor (service yeniden başlatılacak)")
         return START_STICKY
     }
 

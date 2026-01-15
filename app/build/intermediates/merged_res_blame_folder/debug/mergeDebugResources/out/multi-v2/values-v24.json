@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.smstotelegrambot.app-mergeDebugResources-45:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/dogusizgi/.gradle/caches/8.13/transforms/7bcb71d00a342dbd65091e8b439f2b24/transformed/appcompat-1.7.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smstotelegrambot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+11-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:5:5-87
+11-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:5:22-84
+12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+12-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:6:5-70
+12-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:6:22-67
+13    <uses-permission android:name="android.permission.READ_SMS" />
+13-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:9:5-77
+15-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:23:5-68
+18-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:23:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:24:5-79
+19-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:24:22-76
+20
+21    <permission
+21-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.smstotelegrambot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.smstotelegrambot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:14:5-58:19
+28        android:allowBackup="true"
+28-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:15:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.17.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/21c152eb66e2a7e18d3d3b9cace40427/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:16:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:17:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:18:9-43
+35        android:label="@string/app_name"
+35-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:19:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:20:9-54
+37        android:supportsRtl="true"
+37-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.SmsToTelegramBot" >
+39-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:22:9-54
+40        <activity
+40-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:24:9-32:20
+41            android:name="com.example.smstotelegrambot.MainActivity"
+41-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:25:13-41
+42            android:exported="true"
+42-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:26:13-36
+43            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+43-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:27:13-69
+44            <intent-filter>
+44-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:28:13-31:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:29:17-69
+45-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:30:17-77
+47-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:30:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <receiver
+51-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:34:9-43:20
+52            android:name="com.example.smstotelegrambot.SmsReceiver"
+52-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:35:13-40
+53            android:exported="true"
+53-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:36:13-36
+54            android:permission="android.permission.BROADCAST_SMS" >
+54-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:37:13-66
+55            <intent-filter android:priority="999" >
+55-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:39:13-41:29
+55-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:39:28-50
+56                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+56-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:40:17-82
+56-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:40:25-79
+57            </intent-filter>
+58        </receiver>
+59        <receiver
+59-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:45:9-52:20
+60            android:name="com.example.smstotelegrambot.BootReceiver"
+60-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:46:13-41
+61            android:enabled="true"
+61-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:47:13-35
+62            android:exported="true" >
+62-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:48:13-36
+63            <intent-filter>
+63-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:49:13-51:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:50:17-78
+64-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:50:25-76
+65            </intent-filter>
+66        </receiver>
+67
+68        <service
+68-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:54:9-56:40
+69            android:name="com.example.smstotelegrambot.SmsForegroundService"
+69-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:55:13-49
+70            android:exported="false" />
+70-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:56:13-37
+71
+72        <activity
+72-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/bce6f0892e79fabfee9cf102eb20117f/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+73            android:name="androidx.compose.ui.tooling.PreviewActivity"
+73-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/bce6f0892e79fabfee9cf102eb20117f/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+74            android:exported="true" />
+74-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/bce6f0892e79fabfee9cf102eb20117f/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+75        <activity
+75-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/ecc44d89e66e149ff46c967669c877dd/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:23:9-26:79
+76            android:name="androidx.activity.ComponentActivity"
+76-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/ecc44d89e66e149ff46c967669c877dd/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:24:13-63
+77            android:exported="true"
+77-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/ecc44d89e66e149ff46c967669c877dd/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:25:13-36
+78            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+78-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/dogusizgi/.gradle/caches/8.13/transforms/ecc44d89e66e149ff46c967669c877dd/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:26:13-76
+79
+80        <provider
+80-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:29:9-37:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:30:13-67
+82            android:authorities="com.example.smstotelegrambot.androidx-startup"
+82-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:31:13-68
+83            android:exported="false" >
+83-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:32:13-37
+84            <meta-data
+84-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:34:13-36:52
+85                android:name="androidx.work.WorkManagerInitializer"
+85-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:35:17-68
+86                android:value="androidx.startup" />
+86-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:36:17-49
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/22bcdd0d5c4ce72dc61a6f5fe08f6941/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/22bcdd0d5c4ce72dc61a6f5fe08f6941/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/22bcdd0d5c4ce72dc61a6f5fe08f6941/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/b8a6cb5a44a7cf44766ee81f4aaff0a5/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/b8a6cb5a44a7cf44766ee81f4aaff0a5/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/b8a6cb5a44a7cf44766ee81f4aaff0a5/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+96        </provider>
+97
+98        <service
+98-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:39:9-45:35
+99            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+99-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:40:13-84
+100            android:directBootAware="false"
+100-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:41:13-44
+101            android:enabled="@bool/enable_system_job_service_default"
+101-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:42:13-70
+102            android:exported="true"
+102-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:43:13-36
+103            android:permission="android.permission.BIND_JOB_SERVICE" />
+103-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:44:13-69
+104        <service
+104-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:46:9-52:35
+105            android:name="androidx.work.impl.foreground.SystemForegroundService"
+105-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:47:13-81
+106            android:directBootAware="false"
+106-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:48:13-44
+107            android:enabled="@bool/enable_system_foreground_service_default"
+107-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:49:13-77
+108            android:exported="false" />
+108-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:50:13-37
+109
+110        <receiver
+110-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:54:9-59:35
+111            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+111-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:55:13-88
+112            android:directBootAware="false"
+112-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:56:13-44
+113            android:enabled="true"
+113-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:57:13-35
+114            android:exported="false" />
+114-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:58:13-37
+115        <receiver
+115-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:60:9-69:20
+116            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+116-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:61:13-88
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:62:13-44
+118            android:enabled="false"
+118-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:63:13-36
+119            android:exported="false" >
+119-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:64:13-37
+120            <intent-filter>
+120-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:49:13-51:29
+121                <action android:name="android.intent.action.BOOT_COMPLETED" />
+121-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:50:17-78
+121-->/Users/dogusizgi/Documents/GitHub/SmsToTelegramBot/app/src/main/AndroidManifest.xml:50:25-76
+122            </intent-filter>
+123        </receiver>
+124        <receiver
+124-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:70:9-80:20
+125            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+125-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:71:13-78
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:72:13-44
+127            android:enabled="true"
+127-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:73:13-35
+128            android:exported="true"
+128-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:74:13-36
+129            android:permission="android.permission.DUMP" >
+129-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:75:13-57
+130            <intent-filter>
+130-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:77:13-79:29
+131                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+131-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:78:17-88
+131-->[androidx.work:work-runtime:2.11.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/89d4392f325eb7fb32ab41eafb356b29/transformed/work-runtime-2.11.0/AndroidManifest.xml:78:25-85
+132            </intent-filter>
+133        </receiver>
+134
+135        <service
+135-->[androidx.room:room-runtime-android:2.7.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/c2c6fab6bb6aadeb8b1c1f113af81de9/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+136            android:name="androidx.room.MultiInstanceInvalidationService"
+136-->[androidx.room:room-runtime-android:2.7.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/c2c6fab6bb6aadeb8b1c1f113af81de9/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+137            android:directBootAware="true"
+137-->[androidx.room:room-runtime-android:2.7.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/c2c6fab6bb6aadeb8b1c1f113af81de9/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+138            android:exported="false" />
+138-->[androidx.room:room-runtime-android:2.7.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/c2c6fab6bb6aadeb8b1c1f113af81de9/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+139
+140        <receiver
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+142            android:directBootAware="false"
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+143            android:enabled="true"
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+144            android:exported="true"
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+145            android:permission="android.permission.DUMP" >
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/dogusizgi/.gradle/caches/8.13/transforms/20daee641d38d661dd41fa1ae14ba543/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+157            </intent-filter>
+158        </receiver>
+159    </application>
+160
+161</manifest>

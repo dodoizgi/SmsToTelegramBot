@@ -6,7 +6,7 @@ import android.content.Intent
 import android.provider.Telephony
 import android.util.Log
 
-private const val TARGET_NUMBER = "your-target-number"
+private const val TARGET_NUMBER = "target-number"
 
 class SmsReceiver : BroadcastReceiver() {
 
